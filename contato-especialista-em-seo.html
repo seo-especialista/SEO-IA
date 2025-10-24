@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Abrantes SEO IA</title>
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      /* 1. Schema: Tipo Organization (Para identificar a sua empresa) */
+      "@type": "Organization",
+      "@id": "https://especialistaemseo.ia.br/#organization",
+      "name": "Abrantes SEO I.A.",
+      "url": "https://especialistaemseo.ia.br/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://especialistaemseo.ia.br/images/2023-09-abrantes-seo-logo-especialista-em-seo-site-188x40.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-12-992227724",
+        "contactType": "Sales",
+        "email": "contato@abrantesseo.com.br",
+        "areaServed": ["BR", "GLOBAL"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/abrantes-seo-especialista-em-seo/",
+        "https://www.instagram.com/abrantes_seo/",
+        "https://especialistaemseo.ia.br/",
+        "https://api.whatsapp.com/send?phone=5512992227724"
+      ]
+    },
+    {
+      /* 2. Schema: Tipo ContactPage (Para otimizar a página de contato em si) */
+      "@type": "ContactPage",
+      "@id": "https://especialistaemseo.ia.br/contato-especialista-em-seo/#webpage",
+      "url": "https://especialistaemseo.ia.br/contato-especialista-em-seo/",
+      "name": "Fale com um Especialista em SEO IA - Contato Abrantes SEO",
+      "isPartOf": {
+        "@id": "https://especialistaemseo.ia.br/#website"
+      },
+      "about": {
+        "@id": "https://especialistaemseo.ia.br/#organization"
+      },
+      "description": "Entre em contato com a Abrantes SEO para consultoria estratégica em SEO e Otimização para Inteligência Artificial. Atendemos todo o Brasil e Exterior.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Início",
+            "item": "https://especialistaemseo.ia.br/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contato",
+            "item": "https://especialistaemseo.ia.br/contato-especialista-em-seo/"
+          }
+        ]
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+/* ---------------------------------------------------- */
+/* VARIÁVEIS DE CORES GLOBAIS */
+/* ---------------------------------------------------- */
+:root {
+    --primary-dark: #040e22; /* Fundo Escuro Principal */
+    --accent-color: #ffc107; /* Amarelo Dourado (Destaque/Hover) */
+    --text-light: #ffffff; /* Texto Claro */
+    --text-mid: #cccccc; /* Texto Secundário */
+    --bg-light: #162447; /* Fundo Secundário (Blocos/Cards) */
+    --error-color: #dc3545; /* Cor de Erro/Destaque Negativo */
+}
+
+/* ESTILOS GERAIS */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-light);
+    line-height: 1.2;
+}
+
+/* ---------------------------------------------------- */
+/* HEADER (MENU DE NAVEGAÇÃO) */
+/* ---------------------------------------------------- */
+.site-header {
+    background-color: var(--primary-dark);
+    box-shadow: none;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-container-simples {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.site-logo {
+    font-size: 1.5em; 
+    font-weight: 800;
+    color: var(--text-light); 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.site-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.menu-toggle-simples {
+    display: none; /* Esconde o botão em telas grandes */
+    background: none;
+    border: none;
+    color: var(--accent-color);
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 0;
+}
+.main-navigation-simples ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menu horizontal */
+}
+.main-navigation-simples li {
+    margin-left: 25px;
+}
+.main-navigation-simples a {
+    text-decoration: none;
+    color: var(--text-light) !important; 
+    font-weight: 600;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.3s;
+}
+.main-navigation-simples a:hover, .main-navigation-simples a.current-page {
+    color: var(--accent-color) !important;
+}
+.main-navigation-simples a.current-page:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--accent-color);
+}
+/* Estilo para os ícones de redes sociais no menu */
+.main-navigation-simples li:nth-last-child(-n+2) a {
+    font-size: 1.2em; /* Ícones um pouco maiores */
+    margin-left: 10px;
+}
+
+/* ---------------------------------------------------- */
+/* SEÇÃO DE CONTATO (ADAPTADA SEM FORMULÁRIO) */
+/* ---------------------------------------------------- */
+.contact-section {
+    padding: 80px 0;
+    background-color: var(--primary-dark);
+}
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.contact-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact-header h1 {
+    font-size: 3em;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+.contact-header p {
+    color: var(--text-mid);
+    font-size: 1.1em;
+}
+.contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+/* NOVO ESTILO PARA OS BLOCOS */
+.contact-start-block, .contact-info-block {
+    flex: 1; /* Para que cada bloco ocupe metade da largura */
+    background-color: var(--bg-light);
+    padding: 40px; /* Aumentei um pouco o padding para destaque */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------------------------------------------------- */
+/* ESTILO DO BLOCO DE INÍCIO RÁPIDO (CORRIGIDO PARA ALINHAMENTO) */
+/* ---------------------------------------------------- */
+.contact-start-block h2 {
+    color: var(--text-light);
+    margin-top: 0;
+    font-size: 2em; /* Título maior e mais impactante */
+}
+
+.contact-start-block p {
+    color: var(--text-mid);
+    margin-bottom: 30px;
+}
+
+/* NOVO: Estilo para o grupo de botões (Flexbox para alinhamento e espaçamento) */
+.button-group {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; /* Centraliza os itens (botões e icon-box) */
+    gap: 20px; /* Espaço uniforme entre os itens */
+    margin-top: 30px; 
+    width: 100%; /* Garante que o grupo use o espaço total do bloco */
+}
+
+.cta-button {
+    /* Ajustes para alinhar o conteúdo interno e limitar a largura */
+    display: flex; 
+    justify-content: center; /* Centraliza o texto e ícone DENTRO do botão */
+    align-items: center;
+    width: 85%; /* Largura otimizada para desktop */
+    max-width: 380px; /* Limita o tamanho em telas muito grandes */
+    
+    background-color: var(--accent-color);
+    color: var(--primary-dark) !important;
+    padding: 15px 30px;
+    
+    /* Remoção de margem superior, agora controlada pelo 'gap' do button-group */
+    margin-top: 0; 
+    
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.cta-button:hover {
+    background-color: #ffd760;
+    transform: translateY(-2px);
+}
+
+.cta-button i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+    font-size: 1.1em; 
+}
+
+.cta-button.email-button {
+    background-color: var(--primary-dark); 
+    color: var(--accent-color) !important;
+    border: 2px solid var(--accent-color);
+    /* Margem removida, pois o 'gap' do button-group já cuida do espaçamento */
+    margin-top: 0; 
+}
+
+.cta-button.email-button:hover {
+    background-color: var(--bg-light);
+    transform: none;
+}
+
+.icon-box {
+    text-align: center;
+    /* Margens e bordas removidas, controladas pelo 'gap' */
+    margin-top: 0; 
+    padding-top: 0; 
+    border-top: none; 
+}
+
+.icon-box i {
+    font-size: 2em; /* Ícone um pouco menor para melhor proporção */
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+/* Ajuste de responsividade para os botões em telas pequenas */
+@media (max-width: 768px) {
+    .cta-button { 
+        width: 95%; /* Ocupa quase a largura total em mobile */
+        max-width: none; 
+        font-size: 1.1em; 
+        padding: 12px 20px; 
+    }
+}
+
+/* ESTILO DO BLOCO DE INFORMAÇÕES */
+.contact-info-block h2 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.8em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.info-item i {
+    color: var(--accent-color);
+    font-size: 1.5em;
+    margin-right: 15px;
+    padding-top: 3px;
+}
+.info-item p {
+    margin: 0;
+    color: var(--text-mid);
+}
+.info-item strong {
+    display: block;
+    color: var(--text-light);
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+.info-social {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.info-social strong {
+    font-size: 1.2em;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    display: block;
+}
+.info-social a {
+    color: var(--text-light);
+    font-size: 2em;
+    margin-right: 25px;
+    transition: color 0.3s;
+}
+.info-social a:hover {
+    color: var(--accent-color);
+}
+
+
+/* ---------------------------------------------------- */
+/* RODAPÉ (MANTIDO) */
+/* ---------------------------------------------------- */
+.site-footer {
+    background-color: var(--primary-dark); 
+    color: var(--text-light); 
+    padding: 40px 0;
+    font-size: 0.9em;
+    border-top: 5px solid var(--primary-dark); 
+    margin: 0; 
+    width: 100%; 
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
+}
+.footer-block {
+    flex-basis: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-block h4 {
+    color: var(--text-light); 
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--accent-color); 
+    padding-bottom: 5px;
+}
+.site-footer a {
+    color: var(--text-mid);
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    margin-bottom: 8px;
+}
+.site-footer a:hover {
+    color: var(--accent-color); 
+}
+.copyright {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+    color: var(--text-mid);
+}
+
+/* ---------------------------------------------------- */
+/* RESPONSIVIDADE (AJUSTES) */
+/* ---------------------------------------------------- */
+@media (max-width: 1024px) {
+    .main-navigation-simples li { margin-left: 15px; }
+    .footer-content { justify-content: space-around; }
+    .footer-block { flex-basis: 45%; }
+}
+@media (max-width: 768px) {
+    /* Header Mobile */
+    .header-container-simples { align-items: flex-start; flex-direction: column; }
+    .menu-toggle-simples { display: block; position: absolute; right: 20px; top: 20px; }
+    .main-navigation-simples { display: none; width: 100%; margin-top: 15px; }
+    .main-navigation-simples ul { flex-direction: column; text-align: center; }
+    .main-navigation-simples li { margin: 10px 0; }
+    
+    /* Contato Mobile */
+    .contact-content { flex-direction: column; gap: 30px; }
+    .contact-start-block, .contact-info-block { padding: 30px; } /* Ajuste de padding */
+    .contact-header h1 { font-size: 2.5em; }
+    .cta-button { font-size: 1.1em; padding: 12px 20px; }
+    
+    /* Footer Mobile */
+    .footer-content { flex-direction: column; align-items: center; }
+    .footer-block { text-align: center; flex-basis: 100%; min-width: unset; }
+    .footer-block h4 { border-bottom: 2px solid var(--accent-color); display: inline-block; }
+    .site-footer a { text-align: center; }
+}
+@media (max-width: 480px) {
+    .contact-header h1 { font-size: 2em; }
+}
+
+/* CSS para menu mobile controlado pelo JS */
+.main-navigation-simples.open { display: block; }
+</style>
+</head>
+
+<body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="wp-singular page-template-default">
+
+<header class="site-header">
+    <div class="header-container-simples">
+        <a href="https://especialistaemseo.ia.br/" class="site-logo"> 
+            <img src="https://especialistaemseo.ia.br/images/2023-09-abrantes-seo-logo-especialista-em-seo-site-188x40.png" alt="Abrantes SEO - Especialista em SEO e AEO" width="188" height="40">
+        </a>
+        
+        <button class="menu-toggle-simples" id="toggle-menu" aria-label="Abrir Menu Principal">
+            <i class="fas fa-bars"></i> 
+        </button>
+
+        <nav class="main-navigation-simples" id="nav-simples">
+            <ul>
+                <li><a href="https://especialistaemseo.ia.br/">Especialista em SEO IA</a></li>
+                <li><a href="https://especialistaemseo.ia.br/solucoes">Soluções SEO IA</a></li>
+                <li><a href="https://www.abrantesseo.com.br/clientes/">Clientes</a></li>
+                <li><a href="https://www.abrantesseo.com.br/blog/">Blog</a></li>
+                <li><a href="https://www.abrantesseo.com.br/contato-especialista-em-seo/" class="current-page">Contato</a></li>
+                <li><a href="https://especialistaemseo.ia.br/faq">FAQ</a></li>
+                <li><a href="https://www.linkedin.com/company/abrantes-seo-especialista-em-seo/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.instagram.com/abrantes_seo/" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="site-main">
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Pronto para Liderar o Jogo Digital?</h1>
+                <p>
+                    Fale diretamente com um de nossos especialistas. Escolha o canal de contato que for mais rápido e conveniente para você. Estamos prontos para transformar sua estratégia de SEO com a Inteligência Artificial.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-start-block">
+    <h2>Início Rápido (Recomendado)</h2>
+    <p>
+        Para agilizar sua consultoria ou tirar dúvidas imediatas, o **WhatsApp** é o canal mais eficiente. Clique abaixo e comece a conversar com a equipe Abrantes SEO I.A.
+    </p>
+    
+    <div class="button-group">
+        <a href="https://api.whatsapp.com/send?phone=5512992227724&text=Ol%C3%A1%2C%20gostaria%20de%20iniciar%20uma%20conversa%20sobre%20SEO%20e%20Intelig%C3%AAncia%20Artificial." class="cta-button" target="_blank">
+            <i class="fab fa-whatsapp"></i> **WhatsApp: Iniciar Consultoria**
+        </a>
+
+        <div class="icon-box">
+            <i class="fas fa-rocket"></i>
+            <p style="color: var(--text-light); font-weight: 600;">Respostas rápidas e agendamento de reuniões.</p>
+        </div>
+
+        <a href="mailto:contato@abrantesseo.com.br" class="cta-button email-button" target="_blank">
+            <i class="fas fa-envelope"></i> Prefiro Enviar um Email
+        </a>
+    </div>
+    </div>
+                
+                <div class="contact-info-block">
+                    <h2>Canais Diretos</h2>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Telefone e WhatsApp</strong>
+                            <p>(12) 992-227724</p>
+                            <p>Disponível de Segunda a Sexta, das 9h às 18h.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email Corporativo</strong>
+                            <p>contato@abrantesseo.com.br</p>
+                            <p>Perfeito para propostas detalhadas e documentos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-globe-americas"></i>
+                        <div>
+                            <strong>Atuação</strong>
+                            <p>Consultoria 100% remota e eficiente.</p>
+                            <p>Atendemos clientes no Brasil e Exterior.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-social">
+                        <strong>Conecte-se com a Abrantes SEO I.A.</strong>
+                        <div style="margin-top: 15px;">
+                            <a href="https://www.linkedin.com/company/abrantes-seo-especialista-em-seo/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/abrantes_seo/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+            
+<footer class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
+    <div class="elementor-container footer-content">
+        <div class="footer-block">
+            <h4>Mapa do Site</h4>
+            <a href="https://especialistaemseo.ia.br/">Especialista em SEO IA</a>
+            <a href="https://especialistaemseo.ia.br/solucoes">Soluções SEO IA</a>
+            <a href="https://www.abrantesseo.com.br/clientes/">Clientes</a>
+            <a href="https://www.abrantesseo.com.br/faq-tudo-o-que-voce-precisa-saber-sobre-a-abrantes-seo/">F.A.Q</a>
+            <a href="https://www.abrantesseo.com.br/blog/">Blog</a>
+        </div>
+        <div class="footer-block">
+            <h4>IAs populares</h4>
+            <a href="https://gemini.google.com/">Gemini</a>
+            <a href="https://chatgpt.com/">Chatgpt</a>
+            <a href="https://claude.ai/">Claude</a>
+            <a href="https://grok.com/">Grok</a>
+        </div>
+        <div class="footer-block">
+            <h4>Contato</h4>
+            <p style="margin-bottom: 5px;">Email: contato@abrantesseo.com.br</p>
+            <p>Telefone: (12) 992-227724</p>
+        </div>
+        <div class="footer-block">
+            <h4>Redes Sociais</h4>
+            <a href="https://www.instagram.com/abrantes_seo/"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/company/abrantes-seo-especialista-em-seo/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+        <div class="copyright">
+            © 2025 Abrantes SEO I.A. Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Script JavaScript para o menu mobile
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.getElementById('toggle-menu');
+        const mainNav = document.getElementById('nav-simples');
+        
+        if (menuToggle && mainNav) {
+            menuToggle.addEventListener('click', function() {
+                // Alterna a classe 'open' para controlar a visibilidade via CSS
+                mainNav.classList.toggle('open');
+            });
+        }
+    });
+    // Adicionando um estilo CSS para o menu mobile ser controlado pela classe 'open'
+    // (Poderia ser um media query, mas para simplificar, usaremos o JS toggle)
+    /*
+    @media (max-width: 768px) {
+        .main-navigation-simples.open { display: block; }
+    }
+    */
+</script>
+
+</body>
+</html>
